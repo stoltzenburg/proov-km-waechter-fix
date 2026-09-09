@@ -1,12 +1,12 @@
 # What I checked, and what the agent got wrong
 
-Write this yourself, in your own words. It is the part of the repo that proves the work is yours.
+I checked the key bugs that have already been identififed. For example the key value "80" and the "//".
 
 ## What the agent got wrong
-(Every agent gets something wrong on a job this size. What did you catch? How did you notice?)
+The AI passed the verify.py at the first try. 
 
 ## What I checked before I accepted its work
-(How do you KNOW the wear bug is fixed and the 80% rule is untouched? What did you run?)
+I explicitly mentioned it in the prompts and then manually checked the top of the file.
 
 ## What the data actually said
-(Which factors predict a breakdown, and which obvious-looking one turned out not to?)
+The factors that actually predict a breakdown are, km_since_service, avg_daily_km and load_factor. Mileage and age do not help.
